@@ -51,3 +51,4 @@ If time allowed, or this was a larger project, some of the changes I would like 
 - [ ] Generate OpenAPI/Swagger docs for the API endpoints
 - [ ] Write tests around client application
 - [ ] Extend test coverage around API
+- [ ] Verify cross-browser compatibility
