@@ -1,0 +1,32 @@
+{
+  "name": "rosterbotServer",
+  "version": "1.0.0",
+  "description": "Roster Bots Player Generator Server",
+  "scripts": {
+    "start": "node ./server.local.js",
+    "test": "TEST=true mocha ./test --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akijowski/RosterBots"
+  },
+  "keywords": [
+    "Roster",
+    "Bots",
+    "Express",
+    "Node"
+  ],
+  "author": "Adam Kijowski",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.2"
+  }
+}

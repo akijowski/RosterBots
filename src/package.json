@@ -1,0 +1,32 @@
+{
+  "name": "rosterbots",
+  "version": "1.0.0",
+  "description": "Roster Bots Player Generator",
+  "scripts": {
+    "install-app": "concurrently \"npm:install-server\" \"npm:install-client\"",
+    "start": "concurrently \"npm:start-server\" \"npm:start-client\"",
+    "test": "concurrently \"npm:test-server\"",
+    "install-server": "cd ./server && npm i",
+    "start-server": "cd ./server && npm start",
+    "test-server": "cd ./server && npm test",
+    "install-client": "cd ./client && npm i",
+    "start-client": "cd ./client && npm start",
+    "test-client": "cd ./client && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akijowski/RosterBots"
+  },
+  "keywords": [
+    "Roster",
+    "Bots",
+    "Node",
+    "Express",
+    "React"
+  ],
+  "author": "Adam Kijowski",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
